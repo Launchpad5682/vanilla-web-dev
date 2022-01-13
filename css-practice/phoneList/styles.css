@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  --primary-color: hsl(236, 92%, 66%);
+  --secondary-color: #16bac5;
+  --ternary-color: #3e2f5b;
+  --text-color: #efe9f4;
+  --secondary-text-color: #171d1c;
+}
+
+.fixedHeader {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  position: fixed;
+  width: 100vw;
+  z-index: 10;
+}
+
+.styledLetter {
+  background: var(--ternary-color);
+  position: sticky;
+  width: 2rem;
+  font-weight: 900;
+  font-size: 2rem;
+  border-radius: 0.4rem;
+  top: 4rem;
+  left: 0;
+  color: var(--text-color);
+  padding: 0.5rem 1rem;
+  margin: 0 0 4rem 0;
+}
+
+.card-list {
+  margin: 2rem 0;
+}
+
+.card-style {
+  margin: 0.3rem 0;
+  background: var(--secondary-color);
+  width: 20rem;
+  border-radius: 0.2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-heading {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.card-code {
+    font-weight: 600;
+}
+.card-dial-code {
+}
+
+.directory-section {
+  position: relative;
+  top: 4rem;
+  padding: 0 0 0 1rem;
+}
